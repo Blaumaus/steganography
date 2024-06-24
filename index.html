@@ -1,0 +1,22 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steganography</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+    <h1>Steganography Example</h1>
+    <input type="file" id="upload" accept="image/*"><br>
+    <canvas id="canvas" style="display:none;"></canvas><br>
+    <textarea id="text" placeholder="Enter text to encode"></textarea><br>
+    <button id="encode">Encode Text</button>
+    <button id="decode">Decode Text</button>
+    <p id="decodedText"></p>
+    <img id="outputImage" alt="Output Image">
+    <script src="./script.js"></script>
+</body>
+
+</html>
