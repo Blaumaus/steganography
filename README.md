@@ -1,6 +1,6 @@
 # JavaScript Steganography implementation
 
-This repository contains the source code for my article about steganography published [on Hackernoon](https://hackernoon.com/todo-update-this-link).
+This repository contains the source code for my article about steganography published [on Hackernoon](https://hackernoon.com/steganography-how-to-hide-text-in-images-using-javascript).
 
 ## Image encoding
 You can upload an image and enter some text to encode it using LSB substitution. Once you have encoded your text into the image, you can download it.
